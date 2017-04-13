@@ -1,0 +1,94 @@
+{
+  "name": "illia1/circular-navigation",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://tympanus.net/codrops/2013/08/09/building-a-circular-navigation-with-css-transforms/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/illia1/circular-navigation",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "circular-navigation",
+      "subhead": "Demo for Codrops Tutorial: Building a Circular Navigation with CSS Transforms",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "circular-navigation: Demo for Codrops Tutorial: Building a Circular Navigation with CSS Transforms",
+          "url": "http://tympanus.net/codrops/2013/08/09/building-a-circular-navigation-with-css-transforms/"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "illia1",
+          "repo": "circular-navigation"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Circular Navigation With CSS Transforms</h1>\n\n<p>Licensed under MIT.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/illia1/circular-navigation",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/illia1",
+          "text": "illia1"
+        }
+      ]
+    }
+  ]
+}
